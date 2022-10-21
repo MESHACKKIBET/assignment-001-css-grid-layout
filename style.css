@@ -1,0 +1,37 @@
+.assignment{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows:0.5fr 3fr 3fr 0.4fr ;
+    grid-template-areas:
+            "nav nav nav nav "
+            "leftsidebar  main main rightsidebar"
+            "leftsidebar main main rightsidebar"
+            "footer footer footer footer";
+    gap:10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav{
+    background-color:#fe8515;
+    grid-area: nav;
+}
+main{
+    background-color:#8bf10a;
+    grid-area:main;
+    border-radius: 10px;
+}
+.leftsidebar{
+    background-color: #7fc242;
+    grid-area: leftsidebar;
+    border-radius: 10px;
+}
+.rightsidebar{
+    background-color:#7fc242 ;
+    grid-area: rightsidebar;
+    border-radius: 10px;
+}
+footer{
+    background-color: #f57e20;
+    grid-area: footer;
+}
