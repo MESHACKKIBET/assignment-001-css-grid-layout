@@ -11,27 +11,52 @@
     gap:10px;
     text-align: center;
     text-transform: uppercase;
+    color:white;
+   font-weight: bold;
+  
+   
+    
 }
 nav{
     background-color:#fe8515;
     grid-area: nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 main{
     background-color:#8bf10a;
     grid-area:main;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .leftsidebar{
     background-color: #7fc242;
     grid-area: leftsidebar;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .rightsidebar{
     background-color:#7fc242 ;
     grid-area: rightsidebar;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 footer{
     background-color: #f57e20;
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
